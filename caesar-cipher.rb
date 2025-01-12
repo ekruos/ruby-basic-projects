@@ -1,3 +1,6 @@
+# The following method is the Caesar cipher forward, where the user gives a string and
+# a shift factor. 
+
 def caesar_cipher(string, shift)
   crypted_string = ""
   string.split("").each do |chr|
