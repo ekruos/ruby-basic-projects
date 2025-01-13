@@ -14,3 +14,6 @@ def caesar_cipher(string, shift)
   crypted_string
 end
 
+caesar_cipher("What a string!", 5)
+# Should return "Bmfy f xywnsl!"
+
